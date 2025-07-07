@@ -75,7 +75,7 @@
     <li><a class="dropdown-item" href="tooth-extraction.html">Tooth Extraction</a></li>
     <li><a class="dropdown-item" href="pediatric-dental.html">Pediatric Dental Care</a></li>
     <li><a class="dropdown-item" href="braces-invisalign.html">Braces & Invisalign</a></li>
-    <li><a class="dropdown-item" href="extra-oral-prosthesis.html">EExtra Oral Prosthesis & Oral Oncology</a></li>
+    <li><a class="dropdown-item" href="extra-oral-prosthesis.html">Extra Oral Prosthesis & Oral Oncology</a></li>
   </ul>
 </li>
 
@@ -108,19 +108,46 @@
 
         
         <!-- Page Header Start -->
-        <div class="container-fluid page-header py-5">
-            <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4 animated slideInDown">Service</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item" aria-current="page">Service</li>
-                    </ol>
-                </nav>
-            </div>
+    <div class="container-fluid page-header py-5">
+      <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4 animated slideInDown">Braces & Invisalign</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="service.html">Services</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Braces & Invisalign</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Service Content Start -->
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-8">
+          <h2>Advanced Orthodontic Care with Braces & Invisalign</h2>
+          <p>
+            At Kalakriti Dental Studio, we offer modern solutions for achieving a straight and confident smile. Whether you prefer traditional braces or clear aligners like Invisalign, our expert orthodontic team will guide you through a comfortable, effective treatment journey tailored to your needs.
+          </p>
+          <h4>Our Services Include:</h4>
+          <ul>
+            <li>Traditional metal braces</li>
+            <li>Ceramic braces</li>
+            <li>Invisalign clear aligners</li>
+            <li>Retention programs and follow-up care</li>
+          </ul>
+          <p>
+            Schedule a consultation today to explore your options and take the first step toward a healthier, more beautiful smile!
+          </p>
         </div>
-        <!-- Page Header End -->
+        <div class="col-lg-4">
+          <img src="img/services9.jpg" alt="Braces & Invisalign" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+    <!-- Service Content End -->
+
 
 
 
@@ -199,4 +226,46 @@
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
+
         <!-- Footer End -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.testimonial-carousel').owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 30,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: { items: 1 },
+                768: { items: 2 },
+                992: { items: 3 }
+            }
+        });
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
